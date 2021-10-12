@@ -1,0 +1,146 @@
+body {
+    background-color:#f4f4f4;
+    color: #555555;
+
+    font: normal 16px arial, helvetica, sans-serif;
+
+    line-height: 1.6em;
+    margin: 5;
+
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#555;
+    margin: 10px;
+}
+
+a:hover{
+    color:blue;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+hr{
+    width: 80%;
+}
+
+.container {
+    width: 50%;
+    margin: auto; 
+}
+
+.box-header {
+    background-color: black;
+    color: rgb(150, 150, 150);;
+    text-align: center;
+    padding: 5px;
+    border: black 3px solid;
+    width: 79%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.Box-Picture{
+    background-color: #555555;
+    text-align: center;
+    padding: 6px 6px 0px 6px;
+    border: #555555 3px solid;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.box-footer {
+    background-color: #555555;
+    border: #555555 1px;
+    border-radius: 5px;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.my-form{
+    text-align: left;
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+  
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"]{
+    padding: 8px;
+    width: 50%;
+}
+
+.my-form textarea{
+    padding: 8px;
+    width: 50%;
+    height: 70px;
+}
+
+.my-form input[type="submit"]{
+    background-color: #555;
+    color: #f4f4f4;
+    padding: 15px 20px;
+    border: #555 2px solid;
+    border-radius: 5px;
+}
+
+.my-form input:hover[type="submit"]{
+    background-color: blue;
+}
+
+@media (min-width: 320px) {                                                          
+    h1 {                                                                             
+        font-size: 17px;                                                             
+    }
+    h2 {
+        font-size: 15px;
+    } 
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 13px;
+    }  
+                                                                                   
+} 
+
+@media (min-width: 768px) {                                                          
+    h1 {                                                                             
+        font-size: 25px;                                                             
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 17px;
+    } 
+    p {
+        font-size: 14px;
+    }                                                                                 
+} 
+
+@media (min-width: 1024px) {                                                          
+    h1 {                                                                             
+        font-size: 45px;                                                             
+    }
+    h2 {
+        font-size: 25px;
+    } 
+    h3 {
+        font-size: 19px;
+    } 
+    p {
+        font-size: 16px;
+    } 
+}
