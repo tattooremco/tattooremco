@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Opleiding Web Development </title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Post hier je favoriete recepten</h1>
+        </header>
+    </body>    
+    
+    <form name="contact" method="POST" data-netlify="true">
+    <div class="form">
+        
+            <label>Naam:</label><br>
+            <input type="text" name="Naam:"><br><br>
+        
+            <label>Email:</label><br> 
+            <input type="email" name="Email:"><br><br>
+        
+            <label>Telefoon:</label><br> 
+            <input type="tel" id="phone" name="Telefoon:" pattern="[0-9]{10}"><br><br>
+        
+            <label>Leeftijd:</label><br> 
+            <input type="number" name="Leeftijd:" pattern="[0-9]{3}"><br><br>
+    
+            <label>Geboortedatum:</label><br> 
+            <input type="date" name="Geboortedatum:"><br><br>
+        
+            <label>Geslacht:</label><br> 
+            <input type="radio" id="Man" name="Geslacht:" value="Man">
+            <label>Man</label><br>
+            <input type="radio" id="Vrouw" name="Geslacht:" value="Vrouw">
+            <label>Vrouw</label><br><br>
+        
+            <label>Favoriete keuken:</label><br>
+            <input type="checkbox" name="Favoriete keuken:" value="Frans">
+            <label for="keuken1"> Frans</label><br>
+            <input type="checkbox" name="Favoriete keuken:" value="Italiaans">
+            <label for="keuken2"> Italiaans</label><br>
+            <input type="checkbox" name="Favoriete keuken:" value="Spaans">
+            <label for="keuken3"> Spaans</label><br>
+            <input type="checkbox" name="Favoriete keuken:" value="Arabisch">
+            <label for="keuken4"> Arabisch</label><br><br>
+        
+            <label>Favoriete schortkleur:</label><br>
+            <input type="color" name="Favoriete schortkleur:"><br><br>
+        
+            <label>Biografie:</label><br>
+            <textarea rows="10" cols="40" name="Biografie:"></textarea><br><br>
+        
+            <label>Upload hier je recept:</label><br>
+            <input type="file" name="Mijn recept:"><br><br>
+
+            <label>Voeg je homepagina toe:</label><br>
+            <input type="url" name="Homepagina:"><br><br>
+          
+            <button type="submit">Verstuur</button>
+            <button type="reset">Reset</button>
+        
+    </div>
+</form>
+</html>
