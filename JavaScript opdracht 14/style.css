@@ -1,0 +1,14 @@
+body {
+    background-color: blue;
+    color:white;
+    }
+
+.red-background {
+    background-color: red;
+    color:white;
+    }
+
+.button {
+    background-color:  green;
+    color: white;
+    }
