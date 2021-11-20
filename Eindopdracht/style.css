@@ -1,0 +1,137 @@
+body {
+    background-color: grey;
+    color:white;
+    margin-left: 0px;
+}
+
+h1 {
+    padding-left: 300px;
+    font-family: arial;
+    font-size: 37px;
+}
+
+h2{
+    padding-top: 5px;
+    padding-left: 75px;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+ }
+
+.nav-main {
+    position: fixed;
+    top: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.button-toggle-nav {
+    width: 60px;
+    height: 60px;
+    background-color: lightskyblue;
+    background-image: url("img/menu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.red-background {
+    background-color: red;
+    color:white;
+    }
+
+.orange-background {
+    background-color:orange;
+    color:white;
+    }
+
+.purple-background {
+    background-color: purple;
+    color:white;
+    }
+
+.green-background {
+    background-color: green;
+    color:white;
+    }
+
+.button-home {
+    background-color:  grey;
+    color:black;
+    padding: 10px;
+    margin-right: 40px;
+    }
+
+.button-red {
+    background-color:  red;
+    color:black;
+    padding: 10px;
+    margin-right: 40px;
+    }
+
+.button-orange {
+    background-color: orange;
+    color:black;
+    padding: 10px;
+    margin-right: 40px;
+    }
+
+.button-purple {
+    background-color: purple;
+    color:black;
+    padding: 10px;
+    margin-right: 40px;
+    }
+
+.button-green {
+    background-color:  green;
+    color:black;
+    padding: 10px;
+    margin-right: 40px;
+    }
+
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: calc(100vh - 60px);
+    padding: 0 0px;
+    background-color: rgb(9, 46, 70);
+    z-index: 1000;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-sidebar ul{
+    padding-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.nav-sidebar ul li{
+    line-height: 60px;
+    list-style: none;
+}
+
+.nav-sidebar ul li a{
+   display: block;
+   height: 60px;
+   padding: 0 5px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+   font-family: arial;
+   font-size: 16px;
+   white-space: nowrap;
+   opacity: 100%;
+   transition: all 0.5s ease-in-out;
+}
+
+.nav-sidebar ul li a:hover{
+    opacity: 50%;
+ }
+
+
+ 
